@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+body{
+    background-color: rgb(31, 30, 30);
+}
+
+
+/* Navbar section */
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow: wrap;
+    list-style: none;
+    border: 1px solid white;
+    width: 900px;
+    height:80px;
+    position: relative; 
+    left: 15vw;
+    background-color: rgb(2, 1, 1);
+ box-shadow: rgba(85, 82, 82, 0.19) 0px 10px 20px, rgba(48, 47, 47, 0.23) 0px 6px 6px;
+
+}
+ul a{
+    position: relative;
+    top: 3vh;
+    color: wheat;
+    text-decoration: none;
+    border: .2pX solid white;
+    height: 35px;
+   
+}
+ul a.active{
+    color: white;
+    box-shadow: rgb(145 144 144 / 19%) 1px 9px 2px, rgb(137 137 137 / 23%) -5px -7px 0px;
+}
+ul a:hover{
+    box-shadow: rgb(145 144 144 / 19%) 1px 9px 2px, rgb(137 137 137 / 23%) -5px -7px 0px;
+}
+ul li:hover{
+    color: white;
+  
+}
+ ul li{
+     font-size: 1.7rem;
+    padding-left:20px;
+    padding-right: 20px;
+ }
+
+.cards{
+ display: inline-block;
+ margin: 5vw 0 10vw 10vw;
+ color: wheat;
+    border: 1px solid white;
+    background-color: black;
+    
+    box-shadow: rgb(145 144 144 / 19%) 1px 9px 2px, rgb(137 137 137 / 23%) -5px -7px 0px;
+}
+
+.cards:hover{
+    
+    width: 500px;
+    height: 500px;
+}
+
+.cards img{
+    width: 250px;
+    height: 300px;
+    
+}
+hr{
+    width: 90%;
+}
+.fleX{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.fleX .discrip{
+    text-align: center;
+  
+}
+
+.fleX .movieName{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.fleX .discrip{
+    font-size: 1.1rem;
+    padding: 10px 20px  10pX 20pX ;
+}
+
+button{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding: 8pX;
+    cursor: pointer;
+    border: .5pX solid wheat;
+    background-color: rgb(176, 175, 175);
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
